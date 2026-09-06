@@ -53,7 +53,7 @@ personality [<type>...]
 		...
 ```
 
-This defines the [personality characteristics](ShipPersonalities) and [confusion profile](CreatingConfusions).
+This defines the [personality characteristics](ShipPersonalities) and, beginning in **v. 0.11.3**, the [confusion profile](CreatingConfusions).
 
 ```html
 system

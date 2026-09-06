@@ -115,7 +115,7 @@ personality <type>...
 		...
 ```
 
-The [personalities](ShipPersonalities) that specify how this fleet acts. Personality types can be listed on the same line as the `personality` node in a list separated by spaces, as a list that is a child of `personality`, and/or one type on each line as a child of `personality`. If a [confusion profile](CreatingConfusions) is referenced or defined by a `confusion` node, it will override the confusion provided by the fleet's government, if any.
+The [personalities](ShipPersonalities) that specify how this fleet acts. Personality types can be listed on the same line as the `personality` node in a list separated by spaces, as a list that is a child of `personality`, and/or one type on each line as a child of `personality`. Beginning in **v. 0.11.3**, if a [confusion profile](CreatingConfusions) is referenced or defined by a `confusion` node, it will override the confusion provided by the fleet's government, if any.
 
 # Variants
 

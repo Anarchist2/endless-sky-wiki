@@ -203,7 +203,7 @@ confusion <name>
 confusion
 	...
 ```
-The "confusion" token sets the default [confusion settings](CreatingConfusions) of ships belonging to this government. Governments can refer to a preexisting confusion profile, or can define their own custom confusion within themselves, using the same syntax as normal `confusion` data entry.
+Beginning in **v. 0.11.3**, the "confusion" token sets the default [confusion settings](CreatingConfusions) of ships belonging to this government. Governments can refer to a preexisting confusion profile, or can define their own custom confusion within themselves, using the same syntax as normal `confusion` data entry.
 
 #### Attitude toward
 ```html

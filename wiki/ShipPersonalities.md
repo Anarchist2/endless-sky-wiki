@@ -65,9 +65,13 @@ Each ship in the game can have a variety of "personality" flags that control its
 ### Confusion
 
 Confusion is provided as a "child" node under `personality`.
+
 ```html
 confusion <name>
 confusion
 	...
 ```
-"Confusion" sets the [confusion settings](CreatingConfusions) of ships using this personality, overriding any confusion settings provided by the ships' government. Personalities can refer to a preexisting confusion profile, or can define their own custom confusion within themselves, using the same syntax as normal `confusion` data entry.
+
+Beginning in **v. 0.11.3**, `confusion` sets the [confusion settings](CreatingConfusions) of ships using this personality, overriding any confusion settings provided by the ships' government. Personalities can refer to a preexisting confusion profile, or can define their own custom confusion within themselves, using the same syntax as normal `confusion` data entry.
+
+Prior to this version, confusion was only defined on the personality level, and was only a single numeric value where larger values caused targeting to be more inaccurate.
